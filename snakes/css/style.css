@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: auto;
+    font-family: century gothic;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-image: url(../image/vib.jpg);
+    border: 4px solid transparent 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: rgb(138, 7, 7);
+}
+
+ul li .active a {
+    background-color: white;
+    color: rgb;
+}
+
+.logo img {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-stretch: 150px;
+    font-display: 30%;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 3px solid #fff;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: wheat;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(138, 7, 7);
+}
+
+.ppt {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#services {
+    padding: 90px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.max-width h1 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img {
+    transition: all 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    background-color:  rgb(39, 196, 223);
+}
+
+.box h2 {
+    font-size: 25px;
+    padding: 10px 0 7px;
+}
+
+.svc-box:hover {
+    background-color:  rgb(39, 196, 223);
+    border: 3px solid transparent;
+    transition: 0.6s ease;
+    transform: translateY(-20px);
+}
+
+.pic {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px solid;
+    display: inline-block;
+    color: white;
+}
+.pic:hover img {
+    transform: scale(1.05);
+}
+.htp {
+    background-color:  rgb(39, 196, 223);
+    border-radius: 5px solid;
+    color: white;
+    /* margin-bottom: 60px; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+ .snk{ 
+    background-color: #000000;
+ }
+.slide{
+    height: 300px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+/* header {
+    background-color: rgb(92, 92, 95);
+    border: 4px solid transparent 50%;
+    height: 30vh;
+    background-size: contain;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: rgb(138, 7, 7);
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+services {
+    padding: 100px;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 45px;
+    margin: auto;
+}
+
+.max-width h1 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.max-width h1::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 50px 25px;
+    width: calc(26%-20px);
+    border-radius: 6px;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    user-select: none;
+}
+
+.box {
+    transition: all 0.3s ease;
+}
+
+.card:hover .box {
+    transform: scale(1.05);
+    background-color: rgb(116, 219, 206);
+}
+
+.card:hover .box i {
+    color: rgb(77, 25, 220);
+}
+
+.box h2 {
+    font-size: 25px;
+    padding: 10px 0 7px;
+}
+
+@media screen and(max-width:1190px) {
+    .max-width {
+        padding: 0 25px;
+    }
+    .card {
+        width: calc(50%-100%);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and(max-width:700px) {
+    .card {
+        width: 100%;
+    }
+} */
